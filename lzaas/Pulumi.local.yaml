@@ -1,0 +1,16 @@
+encryptionsalt: v1:no96nLO75zU=:v1:kUvTdOB1BeGdRxu6:iack08NE1ylkDqCBZp32vyLTKXjs2w==
+config:
+  azure-native:location: westeurope
+  lzaas:data:
+    resourceGroups:
+      rg1:
+        name: "carl-rg"
+      rg2:
+        name: "carl2-rg"
+    storageAccounts:
+      sa1:
+        resourceGroupKey: "rg1"
+        name: "carl-sa"
+      sa2:
+        resourceGroupKey: "rg2"
+        name: "carl2-sa"
